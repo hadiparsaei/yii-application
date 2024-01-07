@@ -33,7 +33,7 @@ class RbacAssignmentController extends Controller
                     [
                         'allow' => true,
                         'actions' => ['index','view','create','update'],
-                        'roles' => ['admin'],
+                         //'roles' => ['admin'],
                     ],
 
                 ],
